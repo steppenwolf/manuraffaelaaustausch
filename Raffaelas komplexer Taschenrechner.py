@@ -49,3 +49,4 @@ for zahl in zahlen:
   zwischenergebnis = rechenart(zwischenergebnis, zahl)
   
 print rechenart_ergebnis, 'der Zahlen', '; '.join([str(zahl) for zahl in zahlen]), 'ist', zwischenergebnis, '.'
+# hallo manu <3
