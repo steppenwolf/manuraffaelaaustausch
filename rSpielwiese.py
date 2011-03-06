@@ -25,4 +25,7 @@ blub = knuddel.Knuddel("Manuel")
 bla.begruessen(blub)
 bla.knuddeln(blub)
 
-bla.knuddeln(Elias)
+baby = bla + blub
+
+baby.benennen("Lilly") 
+baby.vorstellung()
