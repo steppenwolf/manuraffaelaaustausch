@@ -10,8 +10,6 @@ class KnuddelName(KnuddelError):
 class BabyName(KnuddelName):
 	pass
 
-
-
 class Knuddel(object):
 	def __init__(self, name=None):
 		if not name == None:
@@ -42,5 +40,3 @@ class Knuddel(object):
 			self.name = name
 		else:
 			raise KnuddelName("Dieses Knuddel hatte schon einen Namen.")
-	
-		
